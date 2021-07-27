@@ -265,6 +265,7 @@ li {
 
 .hero__profession h4 span {
   min-width: 12rem;
+  margin-left: .5rem;
   color: var(--customColor);
   text-decoration: underline;
 }
