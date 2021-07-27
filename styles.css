@@ -250,6 +250,25 @@ li {
   color: #fff;
 }
 
+.hero__profession h4 {
+  display: flex;
+}
+
+.hero__profession h4:not(:first-child) {
+  font-size: 2rem;
+  margin-top: 7px;
+}
+
+.hero__profession h4 {
+  font-size: 2rem;
+}
+
+.hero__profession h4 span {
+  min-width: 12rem;
+  color: var(--customColor);
+  text-decoration: underline;
+}
+
 .hero h3 {
   font-weight: 400;
   font-size: 2rem;
@@ -259,14 +278,6 @@ li {
   font-size: 6rem;
 }
 
-.hero h4 {
-  font-size: 2rem;
-}
-
-.hero h4 span {
-  color: var(--customColor);
-  text-decoration: underline;
-}
 
 .hero a:link,
 .hero a:visited {
