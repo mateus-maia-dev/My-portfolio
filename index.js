@@ -98,13 +98,10 @@ new TypeIt("#type2", {
   loop: true,
   waitUntilVisible: true,
 })
-  .type("bom dia!", { delay: 400 })
-  .pause(500)
-  .delete(9)
-  .type("boa tarde!", { delay: 400 })
+  .type("good morning!", { delay: 400 })
   .pause(500)
   .delete(20)
-  .type("boa noite!", { delay: 400 })
+  .type("good afternoon!")
   .pause(500)
   .delete(9)
   .go();

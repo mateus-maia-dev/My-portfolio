@@ -73,9 +73,9 @@ li {
 
 .header img {
   position: absolute;
-  right: -5%;
+  right: 13%;
   bottom: 0;
-  width: 112rem;
+  width: 43rem;
   z-index: -1;
 }
 
@@ -85,13 +85,13 @@ li {
   }
 
   .header img {
-    width: 70rem;
+    width: 25rem;
   }
 }
 
 @media only screen and (max-width: 768px) {
   .header img {
-    width: 60rem;
+    width: 22rem;
   }
 }
 
@@ -101,7 +101,7 @@ li {
   }
 
   .header img {
-    width: 60rem;
+    width: 22rem;
   }
 }
 
@@ -715,15 +715,19 @@ a.btn:active {
 }
 
 .skills-box .css {
-  width: 80%;
+  width: 90%;
 }
 
 .skills-box .react {
   width: 85%;
 }
 
+.skills-box .javascript {
+  width: 85%;
+}
+
 .skills-box .typescript {
-  width: 80%;
+  width: 75%;
 }
 
 .skills-box .nodejs {
