@@ -1,0 +1,388 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <!-- Favicon -->
+  <link rel="shortcut icon" href="./images/favicon.ico" type="image/x-icon" />
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" />
+  <!-- AOS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" />
+  <!-- Glidejs -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Glide.js/3.4.1/css/glide.core.css" />
+  <!-- Swiper CSS -->
+  <link rel="stylesheet" href="/swiper-bundle.min.css">
+
+  <!-- Custom StyleSheet -->
+  <link rel="stylesheet" href="styles.css" />
+  <title>Portfolio Website</title>
+</head>
+
+<body>
+  <!-- Header -->
+  <header id="home" class="header">
+    <!-- Navigation -->
+    <nav class="nav">
+      <div class="navigation container">
+        <div class="logo">
+          <h1><span>M</span>ateus <span>M</span>aia</h1>
+        </div>
+
+        <div class="menu">
+          <div class="top-nav">
+            <div class="logo">
+              <h1>Mateus <span>M</span>aia</h1>
+            </div>
+            <div class="close">
+              <i class="fas fa-times"></i>
+            </div>
+          </div>
+
+          <ul class="nav-list">
+            <li class="nav-item">
+              <a href="#home" class="nav-link scroll-link">Home</a>
+            </li>
+            <li class="nav-item">
+              <a href="#about" class="nav-link scroll-link">Sobre</a>
+            </li>
+            <li class="nav-item">
+              <a href="#services" class="nav-link scroll-link">Serviços</a>
+            </li>
+            <li class="nav-item">
+              <a href="#portfolio" class="nav-link scroll-link">Portfólio</a>
+            </li>
+            <li class="nav-item">
+              <a href="#skills" class="nav-link scroll-link">Tecnologias</a>
+            </li>
+            <li class="nav-item">
+              <a href="#contact" class="nav-link scroll-link">Contato</a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="hamburger">
+          <i class="fas fa-bars"></i>
+        </div>
+      </div>
+    </nav>
+    <!-- Hero -->
+    <div class="hero">
+      <h3>Olá, meu nome é</h3>
+      <h1>Mateus Maia</h1>
+      <h4>E eu sou desenvolvedor <span id="type1" class="typeit"></span></h4>
+      <a href="#">Me contrate</a>
+    </div>
+
+    <img class="banner" src="./images/my_pic.png" alt="" />
+
+    <div class="icons">
+      <a href="https://www.facebook.com/mateusmaia78" target="_blank">
+        <span>
+          <i class="fab fa-facebook-f"></i></span>
+      </a>
+
+      <a href="https://www.instagram.com/mateusmaiaf/" target="_blank">
+        <span><i class="fab fa-instagram"></i></span>
+      </a>
+
+      <a href="https://www.linkedin.com/in/mateus-maia-fonseca/" target="_blank">
+        <span><i class="fab fa-linkedin"></i></span>
+      </a>
+    </div>
+
+    <!-- color control -->
+    <div class="control">
+      <div class="widget">
+        <i class="fas fa-cog"></i>
+      </div>
+      <div class="colors">
+        <span data-id="#0044FF"></span>
+        <span data-id="#FF4600"></span>
+        <span data-id="#CE00FF"></span>
+        <span data-id="#03FFC7"></span>
+      </div>
+    </div>
+  </header>
+
+  <!-- Main -->
+  <section class="section about" id="about">
+    <div class="title">
+      <h1>Sobre mim</h1>
+    </div>
+
+    <div class="about-center container">
+      <div class="left" data-aos="fade-right" data-aos-duration="2000">
+        <img src="./images/my_pic_full.jpg" alt="" />
+      </div>
+      <div class="right" data-aos="fade-left" data-aos-duration="2000">
+        <h1>Olá, <span id="type2"></span></h1>
+        <p>
+          <b>Bem vindo a minha página!</b> <br>
+          Sou engenheiro de formação, designer gráfico nas horas vagas, e agora desenvolvedor Web como profissão.
+          Apaixonado por tecnologia e relacionamentos interpessoais. Sempre busquei algo que fizesse sentido
+          ter esses dois campos. E foi no desenvolvimento Web que encontrei essa relação perfeita.
+          <br>
+          Conheça um pouco mais da minha trajetória!
+
+        </p>
+        <a href="#" class="btn">Download CV</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Services -->
+  <section class="section services" id="services">
+    <div class="title">
+      <h1>Serviços</h1>
+    </div>
+
+    <div class="services-center container">
+      <div class="service" data-aos="fade-down" data-aos-duration="2000">
+        <span><i class="fas fa-rocket"></i></span>
+        <h2>Front-End</h2>
+        <ul>
+          <li>Design responsivo</li>
+          <li>Intuitivo</li>
+          <li>Ótima performance</li>
+        </ul>
+      </div>
+
+      <div class="service" data-aos="fade-up" data-aos-duration="2000">
+        <span><i class="fas fa-server"></i></span>
+        <h2>Back-End</h2>
+        <ul>
+          <li>API segura, integrada e REST</li>
+          <li>Ótima performance</li>
+          <li>Completa</li>
+          <li>Documentada</li>
+        </ul>
+      </div>
+
+      <div class="service" data-aos="fade-down" data-aos-duration="2000">
+        <span><i class="fas fa-network-wired"></i></span>
+        <h2>Full Stack</h2>
+        <ul>
+          <li>Aplicações escaláveis</li>
+          <li>Ótima performance</li>
+
+          <li>Plataformas fáceis e dinâmicas</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- Portfólio -->
+  <section class="section theme" id="portfolio">
+    <div class="title">
+      <h1>Portfólio</h1>
+    </div>
+
+    <div class="teams-center container">
+      <div class="glide">
+        <div class="glide__track" data-glide-el="track">
+          <ul class="glide__slides">
+            <li class="glide__slide">
+              <div class="portfolio">
+                <div class="img-cover">
+                  <a href="#">
+                    <img src="./images/criptofacil.jpg" alt="" />
+                  </a>
+                </div>
+                <h3>Criptofácil</h3>
+                <p>
+                  Aplicativo para gerenciamento de criptomoedas.
+                </p>
+              </div>
+            </li>
+            <li class="glide__slide">
+              <div class="portfolio">
+                <div class="img-cover">
+                  <a href="#">
+                    <img src="./images/music_hero.jpg" alt="" />
+                  </a>
+                </div>
+                <h3>Music Hero</h3>
+                <p>
+                  Aplicativo para gestão dos seus hábitos.
+                </p>
+              </div>
+            </li>
+            <li class="glide__slide">
+              <div class="portfolio">
+                <div class="img-cover">
+                  <a href="#">
+                    <img src="./images/hogwarts_score.jpg" alt="" />
+                  </a>
+                </div>
+                <h3>Hogwarts Score Manager</h3>
+                <p>
+                  Torneio das escolas de Hogwarts. Tema Harry Potter
+                </p>
+              </div>
+            </li>
+
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Skills -->
+  <section class="section skills" id="skills">
+    <div class="title">
+      <h1>Tecnologias</h1>
+    </div>
+
+    <div class="skills-center container">
+      <div class="skills-left" data-aos="fade-right" data-aos-duration="2000">
+        <div class="skills-box">
+          <h4>CSS</h4>
+          <div class="skills-ilt">
+            <div class="skills-bar css"></div>
+            <span>80%</span>
+          </div>
+        </div>
+        <div class="skills-box">
+          <h4>React</h4>
+          <div class="skills-ilt">
+            <div class="skills-bar react"></div>
+            <span>85%</span>
+          </div>
+        </div>
+        <div class="skills-box">
+          <h4>TypeScript</h4>
+          <div class="skills-ilt">
+            <div class="skills-bar typescript"></div>
+            <span>80%</span>
+          </div>
+        </div>
+        <div class="skills-box">
+          <h4>Nodejs</h4>
+          <div class="skills-ilt">
+            <div class="skills-bar nodejs"></div>
+            <span>75%</span>
+          </div>
+        </div>
+
+        <div class="skills-box">
+          <h4>Python</h4>
+          <div class="skills-ilt">
+            <div class="skills-bar python"></div>
+            <span>90%</span>
+          </div>
+        </div>
+
+        <div class="skills-box">
+          <h4>SQL</h4>
+          <div class="skills-ilt">
+            <div class="skills-bar sql"></div>
+            <span>85%</span>
+          </div>
+        </div>
+
+        <div class="skills-box">
+          <h4>After Effects</h4>
+          <div class="skills-ilt">
+            <div class="skills-bar after_effects"></div>
+            <span>80%</span>
+          </div>
+        </div>
+
+        <div class="skills-box">
+          <h4>Photoshop</h4>
+          <div class="skills-ilt">
+            <div class="skills-bar photoshop"></div>
+            <span>70%</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="right" data-aos="fade-left" data-aos-duration="2000">
+        <h3>Minhas habilidades e experiências.</h3>
+        <p>
+          Ao longo da minha formação, tenho adquirido habilidades em diferentes tecnologias no mundo
+          do desenvolvimento Web e design gráfico. Através de conhecidas e muito utilizadas, ferramentas
+          do mercado, eu fui capaz de construir aplicações bastante interessantes e criativas para aplicações
+          no mundo real.
+        </p>
+        <a href="#" class="btn">Read more</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Teams -->
+
+
+  <!-- Contact -->
+  <section class="section contact" id="contact">
+    <div class="title">
+      <h1>Contato</h1>
+    </div>
+
+    <div class="contact-center container">
+      <div class="left" data-aos="fade-down-right" data-aos-duration="2000">
+        <h2>Entre em contato</h2>
+        <p>
+          Para mais informações, estou disponível nos endereços abaixo.
+        </p>
+        <div>
+          <span class="icon"><i class="fas fa-user"></i></span>
+          <span class="content">
+            <h3>Nome</h3>
+            <span>Mateus Maia</span>
+          </span>
+        </div>
+
+        <div>
+          <span class="icon"><i class="fas fa-map-marker-alt"></i></span>
+          <span class="content">
+            <h3>Endereço</h3>
+            <span>Minas Gerais, Brasil</span>
+          </span>
+        </div>
+
+        <div>
+          <span class="icon"><i class="fas fa-envelope"></i></span>
+          <span class="content">
+            <h3>Email</h3>
+            <span>eng.fonsecamateus@gmail.com</span>
+          </span>
+        </div>
+      </div>
+      <div class="right" data-aos="fade-up-left" data-aos-duration="2000">
+        <form class="form">
+          <h2>Message me</h2>
+          <div>
+            <input type="text" placeholder="Name" />
+            <input type="email" placeholder="Email" />
+          </div>
+          <input type="text" placeholder="Subject" />
+          <textarea cols="10" rows="10" placeholder="Describe Project"></textarea>
+
+          <a href="#" class="btn">Send message</a>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <p>Created with <em class="fas fa-heart"></em> by <span>Mateus Maia</span> </p>
+  </footer>
+
+  <!-- AOS -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+  <!-- Typeit -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/typeit/7.0.4/typeit.min.js"></script>
+  <!-- GSAP -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/gsap.min.js"></script>
+  <!-- Glidejs -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/Glide.js/3.4.1/glide.min.js"></script>
+  <!-- Swiper Js -->
+  <script src="/swiper-bundle.min.js"></script>
+  <!-- Custom Script -->
+  <script src="index.js"></script>
+</body>
+
+</html>
